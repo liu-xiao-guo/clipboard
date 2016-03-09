@@ -1,0 +1,17 @@
+{
+    "name": "clipboard.liu-xiao-guo",
+    "description": "description of clipboard",
+    "architecture": "all",
+    "title": "clipboard",
+    "hooks": {
+        "clipboard": {
+            "apparmor": "clipboard.apparmor",
+            "desktop":  "clipboard.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
